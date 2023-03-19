@@ -81,7 +81,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 <table>
     <tbody>
         <tr>
-            <td rowspan=3> <img src="/img/Persona_3.jpg" width=50% height=50%>  </td>
+            <td rowspan=3> <img src="/img/Persona_3.jpg" width=45% height=45%>  </td>
             <td colspan=2> <h1>Marco Aurélio</h1> </td> 
         </tr>
         <tr>

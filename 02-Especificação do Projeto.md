@@ -10,7 +10,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 <table>
     <tbody>
         <tr>
-            <td rowspan=3> <img src="/img/Persona_1.jpg" width=80% height=80%>  </td>
+            <td rowspan=3> <img src="/img/Persona_1.jpg" width=50% height=50%>  </td>
             <td colspan=2> <h1>Michele de Oliveira</h1> </td> 
         </tr>
         <tr>
@@ -45,21 +45,23 @@ As personas levantadas durante o processo de entendimento do problema são apres
 <table>
     <tbody>
         <tr>
-            <td rowspan=3> <img src="/img/Persona_2.jpg" width=80% height=80%>  </td>
+            <td rowspan=3> <img src="/img/Persona_2.jpg" width=50% height=50%>  </td>
             <td colspan=2> <h1>Carlos Gomes</h1> </td> 
         </tr>
         <tr>
-            <td rowspan=2><h4>Idade: 30 </h4>
+            <td rowspan=2><h4>Idade: 40 </h4>
             <h4>Ocupação: Engenheiro de Produção, funcionário de uma multinacional do setor da indústria automotiva. </h4>
             </td>
         </tr>
         <tr>
             <td><strong>Hobbies:</strong> 
-            <ul>
-            <li>Academia;</li> 
-            <li>Jogos Ps5;</li>
-            <li>Futebol;</li>
-            </li></ul></td>
+            <ul><li>Academia;</li> 
+              <li>Jogos Ps5;</li>
+              <li>Futebol;</li>
+              <br>
+             <br>
+              <br>
+            </ul></td>
         </tr>
   	    <tr>
             <td colspan="3"><strong>Motivações:</strong><br> 
@@ -79,7 +81,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 <table>
     <tbody>
         <tr>
-            <td rowspan=3> <img src="/img/Persona_3.jpg" width=80% height=80%>  </td>
+            <td rowspan=3> <img src="/img/Persona_3.jpg" width=50% height=50%>  </td>
             <td colspan=2> <h1>Marco Aurélio</h1> </td> 
         </tr>
         <tr>
@@ -89,11 +91,13 @@ As personas levantadas durante o processo de entendimento do problema são apres
         </tr>
         <tr>
             <td><strong>Hobbies:</strong> 
-            <ul>
-            <li>Caminhada;</li> 
+            <ul><li>Caminhada;</li> 
             <li>Jogos de RPG;</li>
             <li>Pocker;</li>
-            </li></ul></td>
+            <br>
+            <br>
+            <br>
+            </ul></td>
         </tr>
   	    <tr>
             <td colspan="3"><strong>Motivações:</strong><br> 

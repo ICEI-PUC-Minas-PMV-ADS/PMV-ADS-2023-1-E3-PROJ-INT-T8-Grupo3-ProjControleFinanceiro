@@ -15,7 +15,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
         </tr>
         <tr>
             <td rowspan=2><h4>Idade: 30 </h4>
-            <h4>Ocupação: Advogada, é advogada, é encarregada no setor de dívida ativa da prefeitura. </h4>
+                <h4>Ocupação: Advogada,  encarregada  no setor de dívida ativa da  prefeitura. </ h4 >
             </td>
         </tr>
         <tr>

@@ -59,7 +59,7 @@ Em relação as ferramentas para implmentação do projeto foi utilizado o Photo
 
 Ferramentas utilizadas:
 
-`Desenho do Wireframe`: Photoshop 2022 <br>
+`Desenho do Wireframe`: Photoshop 2022 Adobe Ilustrator<br>
 `Ferramentas de Integração do Grupo`:  WhatsApp e Discord <br>
 `Designer das Telas`: Adobe Ilustrator e Photoshop <br>
 `Implementação dos Códigos`:  Visual Studio Code

@@ -74,16 +74,14 @@ Scrum Master: Vagner de Oliveira Florencio; <br>
 Dono do Produto: Vagner de Oliveira Florencio;<br>
 Equipe de Desenvolvimento: Vagner de Oliveira Florencio, Maxwell de Souza Pedroza, Bryan Bastos<br>
 Equipe de Design: Vagner de Oliveira Florencio, Maxwell de Souza Pedroza, Bryan Bastos<br>
->
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+
 
 ### Processo
 
 >Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
  
+<src="https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/289/views/1" > 
+
 > **Links Úteis**:
 > - [Project management, made simple](https://github.com/features/project-management/)
 > - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)

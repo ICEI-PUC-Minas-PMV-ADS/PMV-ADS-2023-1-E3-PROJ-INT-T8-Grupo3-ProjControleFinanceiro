@@ -70,10 +70,10 @@ Ferramentas utilizadas:
 
 Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
 
-Scrum Master: Vagner de Oliveira Florencio;
-Dono do Produto: Vagner de Oliveira Florencio;
-Equipe de Desenvolvimento: Vagner de Oliveira Florencio, Maxwell de Souza Pedroza, Bryan Bastos
-Equipe de Design: Vagner de Oliveira Florencio, Maxwell de Souza Pedroza, Bryan Bastos
+Scrum Master: Vagner de Oliveira Florencio; <br>
+Dono do Produto: Vagner de Oliveira Florencio;<br>
+Equipe de Desenvolvimento: Vagner de Oliveira Florencio, Maxwell de Souza Pedroza, Bryan Bastos<br>
+Equipe de Design: Vagner de Oliveira Florencio, Maxwell de Souza Pedroza, Bryan Bastos<br>
 >
 > **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu 

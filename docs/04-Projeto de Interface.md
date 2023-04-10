@@ -25,6 +25,9 @@ O diagrama de fluxo pode ser desenvolvido com “boxes” que possuem internamen
 ## Wireframes
 
 <img src="/docs/img/Wireframe_Login.jpg" width=100% height=100%> 
+<img src="/docs/img/Wireframe_Cadastro.jpg" width=100% height=100%> 
+<img src="/docs/img/Wireframe_Painel.jpg" width=100% height=100%> 
+<img src="/docs/img/Wireframe_Relatorio.jpg" width=100% height=100%> 
 
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.

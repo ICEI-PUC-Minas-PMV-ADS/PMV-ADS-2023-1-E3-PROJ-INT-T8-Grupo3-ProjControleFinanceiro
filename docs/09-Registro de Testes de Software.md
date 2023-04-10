@@ -9,7 +9,7 @@ Requisitos para a realização dos testes:<br>
     <li>Site publicado na Internet</li>
 </ul>
 <br>
-<table widht= "100">
+<table widht= "100px">
        <tr>
             <th >Casos de Teste   </th>      
            <th>CT-01 – Acessar serviços  </th>

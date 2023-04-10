@@ -7,7 +7,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 ## Personas
 
 As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem: 
-<table>
+<table width=100%>
     <tbody>
         <tr>
             <td rowspan=3> <img src="/docs/img/Persona_1.jpg" width=50% height=50%>  </td>

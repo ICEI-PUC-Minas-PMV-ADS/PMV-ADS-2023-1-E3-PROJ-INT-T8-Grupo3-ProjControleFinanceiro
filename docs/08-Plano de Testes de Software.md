@@ -1,31 +1,71 @@
-# Plano de Testes de Software
+Plano de teste de software
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+Requisitos para a realização dos testes:
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
+Navegador da Internet - Chrome, Firefox ou Edge
+O Back-end feito no visual Studio code
+Conectividade de Internet para acesso às plataformas 
+Site publicado na Internet
 
-Não deixe de enumerar os casos de teste de forma sequencial e de garantir que o(s) requisito(s) associado(s) a cada um deles está(ão) correto(s) - de acordo com o que foi definido na seção "2 - Especificação do Projeto". 
 
-Por exemplo:
- 
-| **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
-|:---:	|:---:	|
-|	Requisito Associado 	| RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
-| Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha) <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
-|Critério de Êxito | - O cadastro foi realizado com sucesso. |
-|  	|  	|
-| Caso de Teste 	| CT-02 – Efetuar login	|
-|Requisito Associado | RF-00Y	- A aplicação deve possuir opção de fazer login, sendo o login o endereço de e-mail. |
-| Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login" |
-|Critério de Êxito | - O login foi realizado com sucesso. |
+Caso de teste
+CT-01 – Acessar serviços
+Objetivo do Teste
+Verificar se a página está direcionando o usuário para os serviços corretos.
+Requisitos Associados
+A realização do cadastro dos usuários, e, conectividade com o sistema financeiro, que garantam a segurança, confiabilidade, usabilidade, desempenho e escalabilidade do sistema.
+Passos
+1) Acessar o Navegador
+2) Entrar no nosso site 
+3) Visualizar a página principal
+4) Clicar em cada um dos links dos serviços disponíveis
+Critérios de Êxito
+Verificação da conta com sucesso e o usuário ser direcionado corretamente para as abas selecionadas por ele.
 
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+
+Caso de teste
+CT-02 – Utilização do formulário financeiro.
+Objetivo do Teste
+Verificar se o formulário financeiro funciona de acordo com o esperado.
+Requisitos Associados
+O site terá um formulário onde o usuário terá que preencher os campos informados de acordo para receber os resultados de nossa analise.
+Passos
+1) Acessar o site
+2) selecionar a aba formulário 
+3) Visualizar a página de formulário 
+4) Preencher os campos presentes no formulário, e, após a inserção dos dados, clicar no botão de envio ao final do formulário. Os campos presentes no formulário de contato são de preenchimento Obrigatório, salve o número de telefone e email.
+Critérios de Êxito
+Após o preenchimento dos campos obrigatórios, ao clicar no botão de envio, haverá uma mensagem “Obrigado por preencher o formulário, em breve o notificaremos no email e WhatsApp”
+
+
+Caso de teste
+CT-03 – Acessar os dados financeiros e dicas selecionadas.
+Objetivo do Teste
+Verifique se os dados estão sendo exibidas corretamente e atualizadas e se as dicas serão uteis
+Requisitos Associados
+O site terá uma página em que será possível acompanhar seus dados financeiros como: dividas, investimentos, dicas financeiras e renda bruta e liquida.
+Passos
+1) Acessar o site
+2) Acessar a aba “meus dados”
+3) visualizar a aba “meus dados”
+4) Verificar se os dados estão sendo exibidos corretamente e atualizadas e se as dicas são uteis.
+Critérios de Êxito
+Após o acesso, os dados estarem corretamente colocados e as dicas estarem sendo uteis e atualizadas
+
+
+Caso de teste
+CT-03 – Acessar os guias de Ajuda
+Objetivo do Teste
+Verificar se o sistema de ajuda está funcionando corretamente
+Requisitos Associados
+O site terá um guia de ajuda virtual, com respostas automáticas e perguntas quer achamos que serão frequentes.
+Passos
+1) Acessar o site
+2) Acessar o guia de ajuda virtual
+3) visualizar as perguntas frequentes ou se não ir para o chat 
+4) Verificar se as respostas lhe foram uteis
+Critérios de Êxito
+Que as perguntas frequentes sejam uteis e rápidas e que no chat as respostas automáticas possam sanar qualquer dúvida do usuário.
+
+
+

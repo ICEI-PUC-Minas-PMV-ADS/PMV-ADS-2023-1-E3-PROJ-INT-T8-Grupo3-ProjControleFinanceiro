@@ -52,7 +52,7 @@ Requisitos para a realização dos testes:<br>
         </tr>          
         <tr>
             <td>Objetivo do Teste</td>
-            <td>Verificar se o formulário financeiro funciona de <br>
+            <td>Verificar se o formulário financeiro funciona de 
             acordo com o esperado.</td>
         </tr>
         <tr>
@@ -78,9 +78,9 @@ Requisitos para a realização dos testes:<br>
         </tr>
         <tr>
             <td>Critérios de Êxito</td>
-            <td>Após o preenchimento dos campos obrigatórios, <br>
-            ao clicar no botão de envio, haverá uma mensagem <br> 
-            “Obrigado por preencher o formulário, em breve <br> 
+            <td>Após o preenchimento dos campos obrigatórios, 
+            ao clicar no botão de envio, haverá uma mensagem 
+            “Obrigado por preencher o formulário, em breve 
             o notificaremos no email e WhatsApp”</td>
         </tr>      
 </table>
@@ -95,13 +95,13 @@ Requisitos para a realização dos testes:<br>
         </tr>
         <tr>
             <td>Objetivo do Teste</td>
-            <td>Verifique se os dados estão sendo exibidas corretamente e <br> 
+            <td>Verifique se os dados estão sendo exibidas corretamente e 
             atualizadas e se as dicas serão úteis</td>
         </tr>
         <tr>
             <td>Requisitos Associados</td>
-            <td>O site terá uma página em que será possível acompanhar seus dados <br> 
-            financeiros como: dividas, investimentos, dicas financeiras e renda<br> 
+            <td>O site terá uma página em que será possível acompanhar seus dados
+            financeiros como: dividas, investimentos, dicas financeiras e renda
              bruta e liquida.</td>
         </tr>
         <tr>
@@ -111,14 +111,14 @@ Requisitos para a realização dos testes:<br>
                     <li> Acessar o site</li>
                     <li>Acessar a aba “meus dados”</li>
                     <li>visualizar a aba “meus dados”</li>
-                    <li>Verificar se os dados estão sendo exibidos corretamente e <br> 
+                    <li>Verificar se os dados estão sendo exibidos corretamente e 
                     atualizadas e se as dicas são úteis.</li>
                 </ol>   
             </td>
         </tr>
         <tr>
             <td>Critérios de Êxito</td>
-            <td>Após o acesso, os dados estarem corretamente colocados e as dicas<br>  
+            <td>Após o acesso, os dados estarem corretamente colocados e as dicas
             estarem sendo uteis e atualizadas</td>
         </tr>
 </table>
@@ -149,7 +149,7 @@ Requisitos para a realização dos testes:<br>
         </tr>
         <tr>
             <td>Critérios de Êxito</td>
-            <td>Que as perguntas frequentes sejam úteis e rápidas e que no chat as <br> 
+            <td>Que as perguntas frequentes sejam úteis e rápidas e que no chat as 
             respostas automáticas possam sanar qualquer dúvida do usuário.</td>
         </tr>
 </table>

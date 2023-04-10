@@ -2,9 +2,17 @@
 
 
 <h2>Artigo I.	Plano de Teste </h2><BR>
-<h3 text-align= "center">sistema de controle financeiro</h3><BR>
+<h3 text-align= "center">Sistema de controle financeiro</h3><BR>
+<BR>
 Seção 1.01	 Propósito do Teste<BR>
-O propósito deste teste é verificar a performance alcançada pelos participantes e o entendimento das funções do sistema utilizando o protótipo, com a finalidade de realizar alterações necessárias antes da liberação do produto. Será medido o tempo gasto para a <BR>realização das tarefas e serão identificados erros e dificuldades envolvendo a utilização do protótipo em tarefas rotineiras.<BR>
+
+O propósito deste teste é verificar a performance alcançada pelos<BR>
+ participantes e o entendimento das funções do sistema <BR>
+ utilizando o protótipo, com a finalidade de realizar alterações <BR>
+ necessárias antes da liberação do produto. Será medido o tempo<BR>
+  gasto para a <BR>realização das tarefas e serão identificados erros <BR>
+  e dificuldades envolvendo a utilização do protótipo em tarefas rotineiras.<BR>
+  <BR>
 Seção 1.02	 Declaração dos Problemas<BR>
 (a)	As interfaces são claras e intuitivas?<BR>
 (b)	O sistema funciona adequadamente?<BR>

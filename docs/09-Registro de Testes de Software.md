@@ -11,7 +11,7 @@ Requisitos para a realização dos testes:<br>
 <br>
 <table>
        <tr>
-            <th height = "100">Casos de Teste   </th>      
+            <th height = "100" widht= "100">Casos de Teste   </th>      
            <th>CT-01 – Acessar serviços  </th>
         </tr>          
         <tr>

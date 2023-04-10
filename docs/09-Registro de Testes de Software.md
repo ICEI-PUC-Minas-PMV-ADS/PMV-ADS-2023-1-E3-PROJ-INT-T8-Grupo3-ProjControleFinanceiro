@@ -69,8 +69,10 @@ Requisitos para a realização dos testes:<br>
                     <li>selecionar a aba formulário</li>
                     <li>Visualizar a página de formulário </li>
                     <li>Preencher os campos presentes no formulário,<br> 
-                    e, após a inserção dos dados, clicar no botão de envio ao final do formulário. <br>
-                    Os campos presentes no formulário de contato são de preenchimento Obrigatório, salve o número de telefone e email.</li>
+                    e, após a inserção dos dados, clicar no botão de <br> 
+                    envio ao final do formulário. <br>
+                    Os campos presentes no formulário de contato são de <br> 
+                    preenchimento Obrigatório, salve o número de telefone e email.</li>
                 </ol>
             </td>
         </tr>
@@ -92,11 +94,14 @@ Requisitos para a realização dos testes:<br>
         </tr>
         <tr>
             <td>Objetivo do Teste</td>
-            <td>Verifique se os dados estão sendo exibidas corretamente e atualizadas e se as dicas serão úteis</td>
+            <td>Verifique se os dados estão sendo exibidas corretamente e <br> 
+            atualizadas e se as dicas serão úteis</td>
         </tr>
         <tr>
             <td>Requisitos Associados</td>
-            <td>O site terá uma página em que será possível acompanhar seus dados financeiros como: dividas, investimentos, dicas financeiras e renda bruta e liquida.</td>
+            <td>O site terá uma página em que será possível acompanhar seus dados <br> 
+            financeiros como: dividas, investimentos, dicas financeiras e renda<br> 
+             bruta e liquida.</td>
         </tr>
         <tr>
             <td>Passos</td>
@@ -105,13 +110,15 @@ Requisitos para a realização dos testes:<br>
                     <li> Acessar o site</li>
                     <li>Acessar a aba “meus dados”</li>
                     <li>visualizar a aba “meus dados”</li>
-                    <li>Verificar se os dados estão sendo exibidos corretamente e atualizadas e se as dicas são úteis.</li>
+                    <li>Verificar se os dados estão sendo exibidos corretamente e <br> 
+                    atualizadas e se as dicas são úteis.</li>
                 </ol>   
             </td>
         </tr>
         <tr>
             <td>Critérios de Êxito</td>
-            <td>Após o acesso, os dados estarem corretamente colocados e as dicas estarem sendo uteis e atualizadas</td>
+            <td>Após o acesso, os dados estarem corretamente colocados e as dicas<br>  
+            estarem sendo uteis e atualizadas</td>
         </tr>
 </table>
 <table>
@@ -125,7 +132,8 @@ Requisitos para a realização dos testes:<br>
         </tr>
         <tr>
             <td>Requisitos Associados</td>
-            <td>O site terá um guia de ajuda virtual, com respostas automáticas e perguntas quer achamos que serão frequentes.</td>
+            <td>O site terá um guia de ajuda virtual, com respostas automáticas e <br> 
+            perguntas quer achamos que serão frequentes.</td>
         </tr>
         <tr>
             <td>Passos</td>
@@ -140,6 +148,7 @@ Requisitos para a realização dos testes:<br>
         </tr>
         <tr>
             <td>Critérios de Êxito</td>
-            <td>Que as perguntas frequentes sejam úteis e rápidas e que no chat as respostas automáticas possam sanar qualquer dúvida do usuário.</td>
+            <td>Que as perguntas frequentes sejam úteis e rápidas e que no chat as <br> 
+            respostas automáticas possam sanar qualquer dúvida do usuário.</td>
         </tr>
 </table>

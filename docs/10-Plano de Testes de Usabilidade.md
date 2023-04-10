@@ -1,8 +1,8 @@
-Plano de teste de usabilidade
+<H1 text-align = center>Plano de teste de usabilidade</h1>
 
 
-Artigo I.	Plano de Teste <BR>
-sistema de controle financeiro<BR>
+<h2>Artigo I.	Plano de Teste </h2><BR>
+<h3 text-align= center>sistema de controle financeiro</h3><BR>
 Seção 1.01	 Propósito do Teste<BR>
 O propósito deste teste é verificar a performance alcançada pelos participantes e o entendimento das funções do sistema utilizando o protótipo, com a finalidade de realizar alterações necessárias antes da liberação do produto. Será medido o tempo gasto para a <BR>realização das tarefas e serão identificados erros e dificuldades envolvendo a utilização do protótipo em tarefas rotineiras.<BR>
 Seção 1.02	 Declaração dos Problemas<BR>

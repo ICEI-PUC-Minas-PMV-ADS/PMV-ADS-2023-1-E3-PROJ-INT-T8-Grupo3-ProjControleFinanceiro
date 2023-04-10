@@ -42,7 +42,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 </table>
 
 
-<table style= "width:100%">
+<table style= "width:100px">
     <tbody>
         <tr>
             <td rowspan=3> <img src="/docs/img/Persona_2.jpg" width=50% height=50%>  </td>

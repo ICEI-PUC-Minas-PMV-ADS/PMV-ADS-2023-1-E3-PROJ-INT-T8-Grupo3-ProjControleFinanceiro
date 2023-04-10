@@ -57,8 +57,8 @@ Requisitos para a realização dos testes:<br>
         </tr>
         <tr>
             <td>Requisitos Associados</td>
-            <td>O site terá um formulário onde o usuário terá <br>
-            que preencher os campos informados de <br>
+            <td>O site terá um formulário onde o usuário terá 
+            que preencher os campos informados de
             acordo para receber os resultados de nossa analise.</td>
         </tr>
         <tr>
@@ -68,10 +68,10 @@ Requisitos para a realização dos testes:<br>
                     <li>Acessar o site</li>
                     <li>selecionar a aba formulário</li>
                     <li>Visualizar a página de formulário </li>
-                    <li>Preencher os campos presentes no formulário,<br> 
-                    e, após a inserção dos dados, clicar no botão de <br> 
-                    envio ao final do formulário. Os campos presentes <br> 
-                    no formulário de contato são de preenchimento <br> 
+                    <li>Preencher os campos presentes no formulário,
+                    e, após a inserção dos dados, clicar no botão de
+                    envio ao final do formulário. Os campos presentes 
+                    no formulário de contato são de preenchimento
                     Obrigatório, salve o número de telefone e email.</li>
                 </ol>
             </td>

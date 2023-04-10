@@ -39,9 +39,9 @@ Requisitos para a realização dos testes:<br>
         </tr>
         <tr>
             <td>Critérios de Êxito</td>
-            <td>Verificação da conta com sucesso e o usuário <br>
-            ser direcionado corretamente para as abas <br>
-            selecionadas por ele.<br></td>
+            <td>Verificação da conta com sucesso e o usuário 
+            ser direcionado corretamente para as abas 
+            selecionadas por ele.</td>
         </tr>
 
 </table>

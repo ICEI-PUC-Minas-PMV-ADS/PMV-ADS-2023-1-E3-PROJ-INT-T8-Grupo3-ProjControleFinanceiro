@@ -5,7 +5,7 @@
 <h3 text-align= "center">Sistema de controle financeiro</h3><BR>
 <BR>
 Seção 1.01	 Propósito do Teste<BR>
-
+  <BR>
 O propósito deste teste é verificar a performance alcançada pelos<BR>
  participantes e o entendimento das funções do sistema <BR>
  utilizando o protótipo, com a finalidade de realizar alterações <BR>
@@ -13,13 +13,22 @@ O propósito deste teste é verificar a performance alcançada pelos<BR>
   gasto para a <BR>realização das tarefas e serão identificados erros <BR>
   e dificuldades envolvendo a utilização do protótipo em tarefas rotineiras.<BR>
   <BR>  
-Seção 1.02	 Declaração dos Problemas<BR>
+<H2>Seção 1.02	 Declaração dos Problemas<BR></>
+  <BR>
 (a)	As interfaces são claras e intuitivas?<BR>
 (b)	O sistema funciona adequadamente?<BR>
 (c)	A performance alcançada pelos usuários e a ideal?<BR>
+
 Seção 1.03	 Perfil do Usuário<BR>
-Serão utilizados cinco participantes, um por dia. Quatro participantes devem ter de 20 a 40 anos de idade, nível médio (completo ou não) ou superior (completo ou não), mais de um ano de conhecimentos básicos de informática (uso do mouse e teclado) e de utilização de <BR>aplicativos básicos (como por exemplo, Pacote Office), e um participante terá que ter formação em contabilidade e  experiencia na área.<BR>
-Seção 1.04	 Metodologia 	<BR>
+<br>
+Serão utilizados cinco participantes, um por dia.   <BR>
+Quatro participantes devem ter de 20 a 40 anos de idade,   <BR>
+nível médio (completo ou não) ou superior (completo ou não),   <BR>
+mais de um ano de conhecimentos básicos de informática (uso do mouse e teclado)   <BR>
+e de utilização de <BR>aplicativos básicos (como por exemplo, Pacote Office),   <BR>
+e um participante terá que ter formação em contabilidade e  experiencia na área.<BR>
+
+<h3>Seção 1.04	 Metodologia </h3>	<BR>
 O teste será realizado com a finalidade de garantir a usabilidade do produto e será composto das seguintes partes:<BR>
 (a)	O participante será orientado a preencher um pequeno questionário para identificação de seu perfil.
 (b)	O participante receberá um script introdutório de orientação do teste, explicando o propósito e objetivos do teste. Deve ser reforçado que o produto é o centro da avaliação e não o participante. Deve-se informar ao participante que ele será observado e que estará sendo filmado.

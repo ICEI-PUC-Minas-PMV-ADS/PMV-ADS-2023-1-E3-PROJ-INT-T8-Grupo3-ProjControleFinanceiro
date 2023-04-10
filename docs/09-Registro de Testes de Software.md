@@ -16,15 +16,15 @@ Requisitos para a realização dos testes:<br>
         </tr>          
         <tr>
             <td>Objetivo do Teste</td>
-            <td>Verificar se a página está direcionando o<br>
+            <td>Verificar se a página está direcionando o
             usuário para os serviços corretos.</td>
         </tr>
         <tr>
             <td>Requisitos Associados</td>
-            <td>A realização do cadastro dos usuários, e, <br>
-            conectividade com o sistema financeiro, que <br>
-            garantam a segurança, confiabilidade, <br>
-            usabilidade, desempenho e escalabilidade do sistema.<br></td>
+            <td>A realização do cadastro dos usuários, e, 
+            conectividade com o sistema financeiro, que 
+            garantam a segurança, confiabilidade, 
+            usabilidade, desempenho e escalabilidade do sistema.</td>
         </tr>
         <tr>
             <td>Passos</td>

@@ -1,18 +1,18 @@
 Plano de teste de usabilidade
 
 
-Artigo I.	Plano de Teste 
-sistema de controle financeiro
-Seção 1.01	 Propósito do Teste
-O propósito deste teste é verificar a performance alcançada pelos participantes e o entendimento das funções do sistema utilizando o protótipo, com a finalidade de realizar alterações necessárias antes da liberação do produto. Será medido o tempo gasto para a realização das tarefas e serão identificados erros e dificuldades envolvendo a utilização do protótipo em tarefas rotineiras.
-Seção 1.02	 Declaração dos Problemas
-(a)	As interfaces são claras e intuitivas?
-(b)	O sistema funciona adequadamente?
-(c)	A performance alcançada pelos usuários e a ideal?
-Seção 1.03	 Perfil do Usuário
-Serão utilizados cinco participantes, um por dia. Quatro participantes devem ter de 20 a 40 anos de idade, nível médio (completo ou não) ou superior (completo ou não), mais de um ano de conhecimentos básicos de informática (uso do mouse e teclado) e de utilização de aplicativos básicos (como por exemplo, Pacote Office), e um participante terá que ter formação em contabilidade e  experiencia na área.
-Seção 1.04	 Metodologia 	
-O teste será realizado com a finalidade de garantir a usabilidade do produto e será composto das seguintes partes:
+Artigo I.	Plano de Teste <BR>
+sistema de controle financeiro<BR>
+Seção 1.01	 Propósito do Teste<BR>
+O propósito deste teste é verificar a performance alcançada pelos participantes e o entendimento das funções do sistema utilizando o protótipo, com a finalidade de realizar alterações necessárias antes da liberação do produto. Será medido o tempo gasto para a <BR>realização das tarefas e serão identificados erros e dificuldades envolvendo a utilização do protótipo em tarefas rotineiras.<BR>
+Seção 1.02	 Declaração dos Problemas<BR>
+(a)	As interfaces são claras e intuitivas?<BR>
+(b)	O sistema funciona adequadamente?<BR>
+(c)	A performance alcançada pelos usuários e a ideal?<BR>
+Seção 1.03	 Perfil do Usuário<BR>
+Serão utilizados cinco participantes, um por dia. Quatro participantes devem ter de 20 a 40 anos de idade, nível médio (completo ou não) ou superior (completo ou não), mais de um ano de conhecimentos básicos de informática (uso do mouse e teclado) e de utilização de <BR>aplicativos básicos (como por exemplo, Pacote Office), e um participante terá que ter formação em contabilidade e  experiencia na área.<BR>
+Seção 1.04	 Metodologia 	<BR>
+O teste será realizado com a finalidade de garantir a usabilidade do produto e será composto das seguintes partes:<BR>
 (a)	O participante será orientado a preencher um pequeno questionário para identificação de seu perfil.
 (b)	O participante receberá um script introdutório de orientação do teste, explicando o propósito e objetivos do teste. Deve ser reforçado que o produto é o centro da avaliação e não o participante. Deve-se informar ao participante que ele será observado e que estará sendo filmado.
 (c)	Depois de passadas as orientações, será permitido que o participante utilize o sistema livremente pelo tempo que for necessário. Logo depois, os criadores irão requisitar que o participante verbalize suas dúvidas, pois isto ajudará os criadores anotar a ocorrência e a razão de problemas. Durante o teste, os acontecimentos observados pelos criadores serão registrados em formulário.

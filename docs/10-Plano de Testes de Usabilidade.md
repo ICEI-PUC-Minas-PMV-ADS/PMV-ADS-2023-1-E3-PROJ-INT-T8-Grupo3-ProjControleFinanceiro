@@ -12,7 +12,7 @@ O propósito deste teste é verificar a performance alcançada pelos<BR>
  necessárias antes da liberação do produto. Será medido o tempo<BR>
   gasto para a <BR>realização das tarefas e serão identificados erros <BR>
   e dificuldades envolvendo a utilização do protótipo em tarefas rotineiras.<BR>
-  <BR>
+  <BR>   <BR>
 Seção 1.02	 Declaração dos Problemas<BR>
 (a)	As interfaces são claras e intuitivas?<BR>
 (b)	O sistema funciona adequadamente?<BR>

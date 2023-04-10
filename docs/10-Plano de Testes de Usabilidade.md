@@ -1,4 +1,4 @@
-<H1 text-align = center>Plano de teste de usabilidade</h1>
+<H1 text-align = "center">Plano de teste de usabilidade</h1>
 
 
 <h2>Artigo I.	Plano de Teste </h2><BR>

@@ -21,6 +21,7 @@ O propósito deste teste é verificar a performance alcançada pelos<BR>
 <br>
 <h3><b>Seção 1.03	 Perfil do Usuário<b></h3><BR>
 <br>
+<br>
 Serão utilizados cinco participantes, um por dia.   <BR>
 Quatro participantes devem ter de 20 a 40 anos de idade,   <BR>
 nível médio (completo ou não) ou superior (completo ou não),   <BR>

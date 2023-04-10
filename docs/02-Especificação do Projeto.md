@@ -21,7 +21,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
         <tr>
             <td><strong>Hobbies:</strong> 
             <ul>
-            <li>Infernizar a vida do marido quando ele esta jogando ;</li> 
+            <li>Caminhada ;</li> 
             <li>Natação;</li>
             <li>Livros de Ficção;</li>
             </li></ul></td>

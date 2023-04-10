@@ -223,5 +223,5 @@ o impacto que pode causar frente aos usuários e o custo/benefício de sua manut
 <h3><b>Seção 9.05	Referências Bibliográficas<b></h3><BR>
 https://www.maxwell.vrac.puc-rio.br/29090/29090_9.PDF<br>
 https://www.youtube.com/watch?v=92r8eYC9mqY<br>
-https://pucminas.instructure.com/courses/148719/pages/etapa-2-materiais-de-apoio
+https://pucminas.instructure.com/courses/148719/pages/etapa-2-materiais-de-apoio<br>
 

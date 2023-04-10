@@ -70,17 +70,18 @@ Requisitos para a realização dos testes:<br>
                     <li>Visualizar a página de formulário </li>
                     <li>Preencher os campos presentes no formulário,<br> 
                     e, após a inserção dos dados, clicar no botão de <br> 
-                    envio ao final do formulário. <br>
-                    Os campos presentes no formulário de contato são de <br> 
-                    preenchimento Obrigatório, salve o número de telefone e email.</li>
+                    envio ao final do formulário. Os campos presentes <br> 
+                    no formulário de contato são de preenchimento <br> 
+                    Obrigatório, salve o número de telefone e email.</li>
                 </ol>
             </td>
         </tr>
         <tr>
             <td>Critérios de Êxito</td>
             <td>Após o preenchimento dos campos obrigatórios, <br>
-            ao clicar no botão de envio, haverá uma mensagem “Obrigado por preencher <br>
-            o formulário, em breve o notificaremos no email e WhatsApp”</td>
+            ao clicar no botão de envio, haverá uma mensagem <br> 
+            “Obrigado por preencher o formulário, em breve <br> 
+            o notificaremos no email e WhatsApp”</td>
         </tr>      
 </table>
 <table>

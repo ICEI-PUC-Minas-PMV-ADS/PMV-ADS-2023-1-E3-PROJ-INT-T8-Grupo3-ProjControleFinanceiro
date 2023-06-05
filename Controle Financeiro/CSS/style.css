@@ -316,7 +316,7 @@ main .insights svg circle {
   stroke-dashoffset: 92;
 }
 
-main .insights .sales svg circle {
+main .insights .dividend svg circle {
   stroke-dashoffset: -30;
   stroke-dasharray: 200;
 }
@@ -347,16 +347,16 @@ main .insights small {
   display: block;
 }
 
-/* ========== Pedidos Recentes ========== */
-main .recent-orders {
+/* ========== Gerenciar Despesas ========== */
+main .gerenciar-despesas {
   margin-top: 2rem;
 }
 
-main .recent-orders h2 {
+main .gerenciar-despesas h2 {
   margin-bottom: 0.8rem;
 }
 
-main .recent-orders table {
+main .gerenciar-despesas table {
   background: var(--color-white);
   width: 100%;
   border-radius: var(--card-border-radius);
@@ -366,7 +366,17 @@ main .recent-orders table {
   transition: all 300ms ease;
 }
 
-main .recent-orders table:hover {
+main .gerenciar-despesas .table .tbody .form {
+  background: var(--color-white);
+  width: 100%;
+  border-radius: var(--card-border-radius);
+  padding: var(--card-padding);
+  text-align: center;
+  box-shadow: var(--box-shadow);
+  transition: all 300ms ease;
+}
+
+main .gerenciar-despesas table:hover {
   box-shadow: none;
 }
 
@@ -380,14 +390,19 @@ main table tbody tr:last-child td {
   border: none;
 }
 
-main .recent-orders a {
+main table tbody form {
+border: none;
+}
+
+
+main .gerenciar-despesas a {
   text-align: center;
   display: block;
   margin: 1rem auto;
   color: var(--color-primary);
 }
 
-/* =========== Direita ========== */
+/* =========== Menu Lateral Direito ========== */
 .right {
   margin-top: 1.4rem;
 }

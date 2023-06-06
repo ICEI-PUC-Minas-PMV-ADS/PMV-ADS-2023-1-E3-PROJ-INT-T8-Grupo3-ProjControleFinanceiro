@@ -93,8 +93,10 @@ const form = document.getElementById('form-despesa');
     function exibirDespesas() {
         let tabela = document.getElementById('tabela-body');
         let total = document.getElementById('total');
+		let totalDespesas = document.getElementById('totalDespesas');
         tabela.innerHTML = '';
         total.innerText = 0;
+		totalDespesas.innerHTML = 'R$';
 
         despesas.forEach((despesa, indice) => {
             let linha = tabela.insertRow();
@@ -121,6 +123,7 @@ const form = document.getElementById('form-despesa');
             acoes.appendChild(btnExcluir);
 
             total.innerText = Number(total.innerText) + Number(despesa.valor);
+			totalDespesas.innerText = `R$ ${Number(total.innerText)}`;
         });
     }
 

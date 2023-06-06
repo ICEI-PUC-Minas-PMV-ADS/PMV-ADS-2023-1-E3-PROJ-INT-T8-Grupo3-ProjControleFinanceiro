@@ -20,7 +20,7 @@
       <aside>
         <div class="top">
           <div class="logo">
-            <img src="/IMG/Logo.png" alt="Logo" />
+            <img src="/Controle Financeiro/IMG/Logo.png" alt="Logo" />
             <h2>C <span class="danger">Financeiro</span></h2>
           </div>
           <div class="close" id="close-btn">
@@ -43,7 +43,7 @@
             <h3>Receita</h3>
           </a>
           <a href="#">
-            <span class="material-icons-sharp"> paid </span>
+            <span class="material-icons-sharp" id="bnt-despesa"> paid </span>
             <h3>Despesas</h3>
           </a>
           <a href="#">
@@ -100,7 +100,7 @@
             <div class="middle">
               <div class="left">
                 <h3>Total Despesas</h3>
-                <h1>R$ 4.160,00</h1>
+                <h1> <p id="totalDespesas">R$</p> </h1>
               </div>
               <div class="progress">
                 <svg>
@@ -136,7 +136,7 @@
         </div>
 
         <!------------ Gerenciador de Despesas ------------>
-  <h1>Gerenciador de Despesas</h1>
+  <h1 id="gerenDesp">Gerenciador de Despesas</h1>
 	<form id="form-despesa">
 		<label for="descricao">Descrição:</label>
 		<input type="text" id="descricao" name="descricao">
@@ -148,7 +148,7 @@
 		<button type="button" id="limpar">Limpar</button>
 		<input type="hidden" id="indice" name="indice">
 	</form>
-	<table>
+	<table id="tab-despesa">
 		<thead>
 			<tr>
 				<th>Descrição</th>
@@ -166,7 +166,7 @@
 		</tfoot>
 	</table>
 
-          <a href="#">Mostre Tudo</a>
+          <a href="#" id="mostre-tudo">Mostre Tudo</a>
         </div>
       </main>
 
@@ -186,7 +186,7 @@
               <small class="text-muted">Administrador</small>
             </div>
             <div class="profile-photo">
-              <img src="/IMG/Profile-1.png" alt="Profile-1" />
+              <img src="/Controle Financeiro/IMG/Profile-1.png" alt="Profile-1" />
             </div>
           </div>
         </div>
@@ -197,7 +197,7 @@
           <div class="updates">
             <div class="update">
               <div class="profile-photo">
-                <img src="/IMG/Profile-2.png" alt="Profile-2" />
+                <img src="/Controle Financeiro/IMG/Profile-2.png" alt="Profile-2" />
               </div>
               <div class="message">
                 <p>
@@ -210,7 +210,7 @@
 
             <div class="update">
               <div class="profile-photo">
-                <img src="/IMG/Profile-3.png" alt="Profile-3" />
+                <img src="/Controle Financeiro/IMG/Profile-3.png" alt="Profile-3" />
               </div>
               <div class="message">
                 <p>
@@ -223,7 +223,7 @@
 
             <div class="update">
               <div class="profile-photo">
-                <img src="/IMG/Profile-4.png" alt="Profile-4" />
+                <img src="/Controle Financeiro/IMG/Profile-4.png" alt="Profile-4" />
               </div>
               <div class="message">
                 <p>
@@ -290,8 +290,8 @@
       </div>
     </div>
 
-    <script src="/JS/despesas.js"></script>
-    <script src="/JS/expenses.js"></script>
-    <script src="/JS/script.js"></script>
+    <script src="/Controle Financeiro/JS/despesas.js"></script>
+    <!--<script src="/Controle Financeiro/JS/expenses.js"></script>-->
+    <script src="/Controle Financeiro/JS/script.js"></script>
   </body>
 </html>

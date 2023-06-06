@@ -1,23 +1,27 @@
 //const teste = document.getElementById('bnt-despesa');
 
-function teste(){
+function receita(){
     
-		let totalDespesas = document.getElementById('totalDespesas');
-		totalDespesas.innerText = `R$`;
+	document.getElementById('geren-desp').style.display= "none"
+    document.getElementById('form-despesa').style.display= "none"
+	document.getElementById('tab-despesa').style.display= "none"
 
-		let gerenDesp = document.getElementById('gerenDesp');
-		gerenDesp.innerText = ` `;
-
-		let formDespesa = document.getElementById('form-despesa');
-		formDespesa.innerText = ` `;
-
-		let tabDespesa = document.getElementById('tab-despesa');
-		tabDespesa.innerText = ` `;
-
-		let mostreTudo = document.getElementById('mostre-tudo');
-		mostreTudo.innerText = ` `;
+	document.getElementById('geren-rec').style.display= "block"
+    document.getElementById('form-receita').style.display= "block"
+	document.getElementById('tab-receita').style.display= "block"
         
 }
 
-teste();
+function despesa(){
+    
+	document.getElementById('geren-rec').style.display= "none"
+    document.getElementById('form-receita').style.display= "none"
+	document.getElementById('tab-receita').style.display= "none"
+    
+	document.getElementById('geren-desp').style.display= "block"
+    document.getElementById('form-despesa').style.display= "block"
+	document.getElementById('tab-despesa').style.display= "block"
+}
+
+
 

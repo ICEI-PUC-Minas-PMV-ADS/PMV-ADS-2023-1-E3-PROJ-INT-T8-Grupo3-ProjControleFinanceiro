@@ -230,6 +230,33 @@ aside .sidebar .message-count {
   border-radius: var(--border-radius-1);
 }
 
+#bnt-painel{
+  cursor: pointer;
+}
+
+#bnt-clientes{
+  cursor: pointer;
+}
+#bnt-receita{
+  cursor: pointer;
+}
+#bnt-despesa{
+  cursor: pointer;
+}
+#bnt-relatorio{
+  cursor: pointer;
+}
+#bnt-config{
+  cursor: pointer;
+}
+#bnt-adicionar{
+  cursor: pointer;
+}
+#bnt-logar{
+  cursor: pointer;
+}
+
+
 /* ========== Menu ========== */
 main {
   margin-top: 1.4rem;

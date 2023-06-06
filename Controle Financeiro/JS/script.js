@@ -1,5 +1,6 @@
-/*let totalDespesas = document.getElementById('totalDespesas');
+let totalDespesas = document.getElementById('totalDespesas');
 totalDespesas.innerText = `R$ `;
+/*
 let gerenDesp = document.getElementById('gerenDesp');
 gerenDesp.innerText = ` `;
 let formDespesa = document.getElementById('form-despesa');

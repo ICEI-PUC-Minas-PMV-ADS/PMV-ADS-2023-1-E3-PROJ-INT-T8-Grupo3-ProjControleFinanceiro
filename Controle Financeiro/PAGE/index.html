@@ -30,35 +30,35 @@
 
         <!------------ Menu Lateral Esquerda ------------>
         <div class="sidebar">
-          <a href="#">
+          <a href="#" onclick="" id="bnt-painel">
             <span class="material-icons-sharp"> grid_view </span>
             <h3>Painel</h3>
           </a>
-          <a href="#" class="active">
+          <a href="#" class="active" id="bnt-clientes">
             <span class="material-icons-sharp"> person_outline </span>
             <h3>Clientes</h3>
           </a>
-          <a href="#">
+          <a href="#" onclick="receita()" id="bnt-receita">
             <span class="material-icons-sharp"> receipt </span>
             <h3>Receita</h3>
           </a>
-          <a href="#" id="bnt-despesa" onclick="teste()">
+          <a href="#" id="bnt-despesa" onclick="despesa()">
             <span class="material-icons-sharp"> paid </span>
             <h3>Despesas</h3>
           </a>
-          <a href="#">
+          <a href="#" onclick="" id="bnt-relatorio">
             <span class="material-icons-sharp"> report_gmailerrorred </span>
             <h3>Relatórios</h3>
           </a>
-          <a href="#">
+          <a href="#" onclick="" id="bnt-config">
             <span class="material-icons-sharp"> settings </span>
             <h3>Configurações</h3>
           </a>
-          <a href="#">
+          <a href="#" onclick="" id="bnt-adicionar">
             <span class="material-icons-sharp"> add </span>
             <h3>Adicionar Despesas</h3>
           </a>
-          <a href="#">
+          <a href="#" onclick="" id="logout">
             <span class="material-icons-sharp"> logout </span>
             <h3>Sair</h3>
           </a>
@@ -137,7 +137,7 @@
       
 
         <!------------ Gerenciador de Despesas ------------>
-  <h1 id="gerenDesp">Gerenciador de Despesas</h1>
+  <h1 id="geren-desp">Gerenciador de Despesas</h1>
 	<form id="form-despesa">
 		<label for="descricao">Descrição:</label>
 		<input type="text" id="descricao" name="descricao">
@@ -150,6 +150,38 @@
 		<input type="hidden" id="indice" name="indice">
 	</form>
 	<table id="tab-despesa">
+		<thead>
+			<tr>
+				<th>Descrição</th>
+				<th>Valor</th>
+				<th>Data</th>
+				<th>Ações</th>
+			</tr>
+		</thead>
+		<tbody id="tabela-body">
+		</tbody>
+		<tfoot>
+			<tr>
+				<td colspan="4" style="text-align: right;">Total: R$ <span id="total"></span></td>
+			</tr>
+		</tfoot>
+	</table>
+    </main>
+
+    <!------------ Gerenciador de Receitas ------------>
+  <h1 id="geren-rec">Gerenciador de Receitas</h1>
+	<form id="form-receita">
+		<label for="descricao-receita">Descrição:</label>
+		<input type="text" id="descricao-receita" name="descricao-receita">
+		<label for="valor">Valor: R$</label>
+		<input type="number" id="valor-receita" name="valor-receita">
+		<label for="data">Data:</label>
+		<input type="date" id="data-receita" name="data-receita">
+		<button type="submit">Salvar</button>
+		<button type="button" id="limpar-receita">Limpar</button>
+		<input type="hidden" id="indice-receita" name="indice-receita">
+	</form>
+	<table id="tab-receita">
 		<thead>
 			<tr>
 				<th>Descrição</th>
@@ -290,6 +322,7 @@
     <script src="/Controle Financeiro/JS/despesas.js"></script>
     <script src="/Controle Financeiro/JS/script.js"></script>
     <!--<script src="/Controle Financeiro/JS/bnt.js"></script>-->
+    <script src="/Controle Financeiro/JS/bnt.js"></script>
 
   </body>
 </html>

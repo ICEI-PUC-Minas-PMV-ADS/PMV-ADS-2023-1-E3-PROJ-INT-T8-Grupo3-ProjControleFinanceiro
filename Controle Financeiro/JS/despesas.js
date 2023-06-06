@@ -1,6 +1,10 @@
+
 const form = document.getElementById('form-despesa');
+
 		const tabela = document.getElementById('tbody-despesas');
 		const btnLimpar = document.getElementById('limpar');
+
+		
 
 		let despesas = [];
 

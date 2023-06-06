@@ -1,4 +1,4 @@
-let totalDespesas = document.getElementById('totalDespesas');
+/*let totalDespesas = document.getElementById('totalDespesas');
 totalDespesas.innerText = `R$ `;
 let gerenDesp = document.getElementById('gerenDesp');
 gerenDesp.innerText = ` `;
@@ -7,7 +7,7 @@ formDespesa.innerText = ` `;
 let tabDespesa = document.getElementById('tab-despesa');
 tabDespesa.innerText = ` `;
 let mostreTudo = document.getElementById('mostre-tudo');
-mostreTudo.innerText = ` `;
+mostreTudo.innerText = ` `;*/
 
 
 const sidemenu = document.querySelector("aside");

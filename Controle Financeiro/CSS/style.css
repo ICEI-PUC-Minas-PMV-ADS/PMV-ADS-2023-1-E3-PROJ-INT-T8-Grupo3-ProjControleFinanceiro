@@ -230,32 +230,31 @@ aside .sidebar .message-count {
   border-radius: var(--border-radius-1);
 }
 
-#bnt-painel{
+#bnt-painel {
   cursor: pointer;
 }
 
-#bnt-clientes{
+#bnt-clientes {
   cursor: pointer;
 }
-#bnt-receita{
+#bnt-receita {
   cursor: pointer;
 }
-#bnt-despesa{
+#bnt-despesa {
   cursor: pointer;
 }
-#bnt-relatorio{
+#bnt-relatorio {
   cursor: pointer;
 }
-#bnt-config{
+#bnt-config {
   cursor: pointer;
 }
-#bnt-adicionar{
+#bnt-adicionar {
   cursor: pointer;
 }
-#bnt-logar{
+#bnt-logar {
   cursor: pointer;
 }
-
 
 /* ========== Menu ========== */
 main {
@@ -375,15 +374,15 @@ main .insights small {
 }
 
 /* ========== Gerenciar Despesas ========== */
-main .gerenciar-despesas {
+main .geren-desp {
   margin-top: 2rem;
 }
 
-main .gerenciar-despesas h2 {
+main .geren-desp h1 {
   margin-bottom: 0.8rem;
 }
 
-main .gerenciar-despesas table {
+main .geren-desp table {
   background: var(--color-white);
   width: 100%;
   border-radius: var(--card-border-radius);
@@ -393,7 +392,7 @@ main .gerenciar-despesas table {
   transition: all 300ms ease;
 }
 
-main .gerenciar-despesas .table .tbody .form {
+main .geren-desp .table .form {
   background: var(--color-white);
   width: 100%;
   border-radius: var(--card-border-radius);
@@ -403,7 +402,7 @@ main .gerenciar-despesas .table .tbody .form {
   transition: all 300ms ease;
 }
 
-main .gerenciar-despesas table:hover {
+main .geren-desp table:hover {
   box-shadow: none;
 }
 
@@ -418,9 +417,8 @@ main table tbody tr:last-child td {
 }
 
 main table tbody form {
-border: none;
+  border: none;
 }
-
 
 main .gerenciar-despesas a {
   text-align: center;

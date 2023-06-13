@@ -34,7 +34,7 @@
             <span class="material-icons-sharp"> grid_view </span>
             <h3>Painel</h3>
           </a>
-          <a href="#"  id="bnt-clientes">
+          <a href="#" id="bnt-clientes">
             <span class="material-icons-sharp"> person_outline </span>
             <h3>Clientes</h3>
           </a>
@@ -73,13 +73,13 @@
           <input type="date" placeholder="#" />
         </div>
 
-        <!------------ Dividendo ------------>
+        <!------------ Valores ------------>
         <div class="insights">
           <div class="dividend">
             <span class="material-icons-sharp"> credit_score </span>
             <div class="middle">
               <div class="left">
-                <h3>Total Dividendo</h3>
+                <h3>Total Em Caixa</h3>
                 <h1>R$ 5.240,00</h1>
               </div>
               <div class="progress">
@@ -100,7 +100,7 @@
             <div class="middle">
               <div class="left">
                 <h3>Total Despesas</h3>
-                <h1> <p id="totalDespesas">R$</p> </h1>
+                <h1><p id="totalDespesas">R$</p></h1>
               </div>
               <div class="progress">
                 <svg>
@@ -134,73 +134,115 @@
             <small class="text-muted">Últimas 24 horas</small>
           </div>
         </div>
-      
 
         <!------------ Gerenciador de Despesas ------------>
-      
-    <h1 id="geren-desp">Gerenciador de Despesas</h1>
-	  <form id="form-despesa" >
-		  <label for="descricao" class="gerenciador-label"> <b> Descrição: </b></label>
-		  <input type="text" id="descricao" name="descricao"class="gerenciador-elementos">
-		  <label for="valor" class="gerenciador-label"><b> Valor: R$</b></label>
-		  <input type="number" id="valor" name="valor"class="gerenciador-elementos">
-		  <label for="data" class="gerenciador-label"><b> Data:</b></label>
-		  <input type="date" id="data" name="data" class="gerenciador-elementos">
-		  <button type="submit"> <b>Salvar</b></button>
-		  <button type="button" id="limpar"><b>Limpar</b></button>
-		  <input type="hidden" id="indice" name="indice" class="gerenciador-elementos">
-	  </form>
-	  <table id="tab-despesa">
-		<thead>
-			<tr>
-				<th class="conteudo"><h2>Descrição</h2></th>
-				<th class="conteudo"><h2>Valor</h2></th>
-				<th class="conteudo"><h2>Data</h2></th>
-				<th class="conteudo"><h2>Ações</h2></th>
-			</tr>
-		</thead>
-		<tbody id="tabela-body">
-		</tbody>
-		<tfoot>
-			<tr>
-				<td colspan="4" style="text-align: right;"> <b> Total: R$ </b><span id="total"></span></td>
-			</tr>
-		</tfoot>
-	  </table>
-   
 
-    <!------------ Gerenciador de Receitas ------------>
-    <h1 id="geren-rec">Gerenciador de Receitas</h1>
-	    <form id="form-receita">
-		    <label for="descricao-receita"><b>Descrição:</b></label>
-		    <input type="text" id="descricao-receita" name="descricao-receita" class="gerenciador-elementos">
-		    <label for="valor"><b>Valor: R$</b></label>
-		    <input type="number" id="valor-receita" name="valor-receita" class="gerenciador-elementos">
-		    <label for="data"><b>Data:</b></label>
-		    <input type="date" id="data-receita" name="data-receita" class="gerenciador-elementos">
-		    <button type="submit"><b>Salvar</b></button>
-		   <button type="button" id="limpar-receita"><b>Limpar</b></button>
-		    <input type="hidden" id="indice-receita" name="indice-receita" class="gerenciador-elementos">
-	    </form>
-	    <table id="tab-receita">
-		    <thead>
-			    <tr>
-				   <th class="conteudo"><h2>Descrição</h2></th>
-				   <th class="conteudo"><h2>Valor</h2></th>
-				   <th class="conteudo"><h2>Data</h2></th>
-				   <th class="conteudo"><h2>Ações</h2></th>
-			   </tr>
-		   </thead>
-		    <tbody id="tabela-body-receita">
-		    </tbody>
-		    <tfoot>
-		  	  <tr>
-				   <td colspan="4" style="text-align: right;"><b> Total: R$ </b><span id="total-receita"></span></td>
-			    </tr>
-		    </tfoot>
-	    </table>
+        <h1 id="geren-desp">Gerenciador de Despesas</h1>
+        <form id="form-despesa">
+          <label for="descricao" class="gerenciador-label">
+            <b> Descrição: </b></label
+          >
+          <input
+            type="text"
+            id="descricao"
+            name="descricao"
+            class="gerenciador-elementos"
+          />
+          <label for="valor" class="gerenciador-label"><b> Valor: R$</b></label>
+          <input
+            type="number"
+            id="valor"
+            name="valor"
+            class="gerenciador-elementos"
+          />
+          <label for="data" class="gerenciador-label"><b> Data:</b></label>
+          <input
+            type="date"
+            id="data"
+            name="data"
+            class="gerenciador-elementos"
+          />
+          <button type="submit"><b>Salvar</b></button>
+          <button type="button" id="limpar"><b>Limpar</b></button>
+          <input
+            type="hidden"
+            id="indice"
+            name="indice"
+            class="gerenciador-elementos"
+          />
+        </form>
+        <table id="tab-despesa">
+          <thead>
+            <tr>
+              <th class="conteudo"><h2>Descrição</h2></th>
+              <th class="conteudo"><h2>Valor</h2></th>
+              <th class="conteudo"><h2>Data</h2></th>
+              <th class="conteudo"><h2>Ações</h2></th>
+            </tr>
+          </thead>
+          <tbody id="tabela-body"></tbody>
+          <tfoot>
+            <tr>
+              <td colspan="4" style="text-align: right">
+                <b> Total: R$ </b><span id="total"></span>
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+
+        <!------------ Gerenciador de Receitas ------------>
+        <h1 id="geren-rec">Gerenciador de Receitas</h1>
+        <form id="form-receita">
+          <label for="descricao-receita"><b>Descrição:</b></label>
+          <input
+            type="text"
+            id="descricao-receita"
+            name="descricao-receita"
+            class="gerenciador-elementos"
+          />
+          <label for="valor"><b>Valor: R$</b></label>
+          <input
+            type="number"
+            id="valor-receita"
+            name="valor-receita"
+            class="gerenciador-elementos"
+          />
+          <label for="data"><b>Data:</b></label>
+          <input
+            type="date"
+            id="data-receita"
+            name="data-receita"
+            class="gerenciador-elementos"
+          />
+          <button type="submit"><b>Salvar</b></button>
+          <button type="button" id="limpar-receita"><b>Limpar</b></button>
+          <input
+            type="hidden"
+            id="indice-receita"
+            name="indice-receita"
+            class="gerenciador-elementos"
+          />
+        </form>
+        <table id="tab-receita">
+          <thead>
+            <tr>
+              <th class="conteudo"><h2>Descrição</h2></th>
+              <th class="conteudo"><h2>Valor</h2></th>
+              <th class="conteudo"><h2>Data</h2></th>
+              <th class="conteudo"><h2>Ações</h2></th>
+            </tr>
+          </thead>
+          <tbody id="tabela-body-receita"></tbody>
+          <tfoot>
+            <tr>
+              <td colspan="4" style="text-align: right">
+                <b> Total: R$ </b><span id="total-receita"></span>
+              </td>
+            </tr>
+          </tfoot>
+        </table>
       </main>
-  
+
       <!------------ Lateral Direita ------------>
       <div class="right">
         <div class="top">
@@ -217,7 +259,10 @@
               <small class="text-muted">Administrador</small>
             </div>
             <div class="profile-photo">
-              <img src="/Controle Financeiro/IMG/Profile-1.png" alt="Profile-1" />
+              <img
+                src="/Controle Financeiro/IMG/Profile-1.png"
+                alt="Profile-1"
+              />
             </div>
           </div>
         </div>
@@ -228,7 +273,10 @@
           <div class="updates">
             <div class="update">
               <div class="profile-photo">
-                <img src="/Controle Financeiro/IMG/Profile-2.png" alt="Profile-2" />
+                <img
+                  src="/Controle Financeiro/IMG/Profile-2.png"
+                  alt="Profile-2"
+                />
               </div>
               <div class="message">
                 <p>
@@ -241,7 +289,10 @@
 
             <div class="update">
               <div class="profile-photo">
-                <img src="/Controle Financeiro/IMG/Profile-3.png" alt="Profile-3" />
+                <img
+                  src="/Controle Financeiro/IMG/Profile-3.png"
+                  alt="Profile-3"
+                />
               </div>
               <div class="message">
                 <p>
@@ -254,7 +305,10 @@
 
             <div class="update">
               <div class="profile-photo">
-                <img src="/Controle Financeiro/IMG/Profile-4.png" alt="Profile-4" />
+                <img
+                  src="/Controle Financeiro/IMG/Profile-4.png"
+                  alt="Profile-4"
+                />
               </div>
               <div class="message">
                 <p>
@@ -325,6 +379,5 @@
     <script src="/Controle Financeiro/JS/script.js"></script>
     <!--<script src="/Controle Financeiro/JS/bnt.js"></script>-->
     <script src="/Controle Financeiro/JS/bnt.js"></script>
-
   </body>
 </html>

@@ -34,7 +34,7 @@
             <span class="material-icons-sharp"> grid_view </span>
             <h3>Painel</h3>
           </a>
-          <a href="#" class="active" id="bnt-clientes">
+          <a href="#"  id="bnt-clientes">
             <span class="material-icons-sharp"> person_outline </span>
             <h3>Clientes</h3>
           </a>
@@ -137,68 +137,70 @@
       
 
         <!------------ Gerenciador de Despesas ------------>
-  <h1 id="geren-desp">Gerenciador de Despesas</h1>
-	<form id="form-despesa">
-		<label for="descricao">Descrição:</label>
-		<input type="text" id="descricao" name="descricao">
-		<label for="valor">Valor: R$</label>
-		<input type="number" id="valor" name="valor">
-		<label for="data">Data:</label>
-		<input type="date" id="data" name="data">
-		<button type="submit">Salvar</button>
-		<button type="button" id="limpar">Limpar</button>
-		<input type="hidden" id="indice" name="indice">
-	</form>
-	<table id="tab-despesa">
+      
+    <h1 id="geren-desp">Gerenciador de Despesas</h1>
+	  <form id="form-despesa" >
+		  <label for="descricao" class="gerenciador-label"> <b> Descrição: </b></label>
+		  <input type="text" id="descricao" name="descricao"class="gerenciador-elementos">
+		  <label for="valor" class="gerenciador-label"><b> Valor: R$</b></label>
+		  <input type="number" id="valor" name="valor"class="gerenciador-elementos">
+		  <label for="data" class="gerenciador-label"><b> Data:</b></label>
+		  <input type="date" id="data" name="data" class="gerenciador-elementos">
+		  <button type="submit"> <b>Salvar</b></button>
+		  <button type="button" id="limpar"><b>Limpar</b></button>
+		  <input type="hidden" id="indice" name="indice" class="gerenciador-elementos">
+	  </form>
+	  <table id="tab-despesa">
 		<thead>
 			<tr>
-				<th>Descrição</th>
-				<th>Valor</th>
-				<th>Data</th>
-				<th>Ações</th>
+				<th class="conteudo"><h2>Descrição</h2></th>
+				<th class="conteudo"><h2>Valor</h2></th>
+				<th class="conteudo"><h2>Data</h2></th>
+				<th class="conteudo"><h2>Ações</h2></th>
 			</tr>
 		</thead>
 		<tbody id="tabela-body">
 		</tbody>
 		<tfoot>
 			<tr>
-				<td colspan="4" style="text-align: right;">Total: R$ <span id="total"></span></td>
+				<td colspan="4" style="text-align: right;"> <b> Total: R$ </b><span id="total"></span></td>
 			</tr>
 		</tfoot>
-	</table>
-    </main>
+	  </table>
+   
 
     <!------------ Gerenciador de Receitas ------------>
-  <h1 id="geren-rec">Gerenciador de Receitas</h1>
-	<form id="form-receita">
-		<label for="descricao-receita">Descrição:</label>
-		<input type="text" id="descricao-receita" name="descricao-receita">
-		<label for="valor">Valor: R$</label>
-		<input type="number" id="valor-receita" name="valor-receita">
-		<label for="data">Data:</label>
-		<input type="date" id="data-receita" name="data-receita">
-		<button type="submit">Salvar</button>
-		<button type="button" id="limpar-receita">Limpar</button>
-		<input type="hidden" id="indice-receita" name="indice-receita">
-	</form>
-	<table id="tab-receita">
-		<thead>
-			<tr>
-				<th>Descrição</th>
-				<th>Valor</th>
-				<th>Data</th>
-				<th>Ações</th>
-			</tr>
-		</thead>
-		<tbody id="tabela-body-receita">
-		</tbody>
-		<tfoot>
-			<tr>
-				<td colspan="4" style="text-align: right;">Total: R$ <span id="total-receita"></span></td>
-			</tr>
-		</tfoot>
-	</table>
-    </main>
+    <h1 id="geren-rec">Gerenciador de Receitas</h1>
+	    <form id="form-receita">
+		    <label for="descricao-receita"><b>Descrição:</b></label>
+		    <input type="text" id="descricao-receita" name="descricao-receita" class="gerenciador-elementos">
+		    <label for="valor"><b>Valor: R$</b></label>
+		    <input type="number" id="valor-receita" name="valor-receita" class="gerenciador-elementos">
+		    <label for="data"><b>Data:</b></label>
+		    <input type="date" id="data-receita" name="data-receita" class="gerenciador-elementos">
+		    <button type="submit"><b>Salvar</b></button>
+		   <button type="button" id="limpar-receita"><b>Limpar</b></button>
+		    <input type="hidden" id="indice-receita" name="indice-receita" class="gerenciador-elementos">
+	    </form>
+	    <table id="tab-receita">
+		    <thead>
+			    <tr>
+				   <th class="conteudo"><h2>Descrição</h2></th>
+				   <th class="conteudo"><h2>Valor</h2></th>
+				   <th class="conteudo"><h2>Data</h2></th>
+				   <th class="conteudo"><h2>Ações</h2></th>
+			   </tr>
+		   </thead>
+		    <tbody id="tabela-body-receita">
+		    </tbody>
+		    <tfoot>
+		  	  <tr>
+				   <td colspan="4" style="text-align: right;"><b> Total: R$ </b><span id="total-receita"></span></td>
+			    </tr>
+		    </tfoot>
+	    </table>
+      </main>
+  
       <!------------ Lateral Direita ------------>
       <div class="right">
         <div class="top">

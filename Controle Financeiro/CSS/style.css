@@ -232,11 +232,13 @@ aside .sidebar .message-count {
 
 #bnt-painel{
   cursor: pointer;
+  
 }
 
 #bnt-clientes{
   cursor: pointer;
 }
+
 #bnt-receita{
   cursor: pointer;
 }
@@ -410,7 +412,7 @@ main .gerenciar-despesas table:hover {
 main table tbody td {
   height: 2.8rem;
   border-bottom: 1px solid var(--color-light);
-  color: var(--color-dark-variant);
+  color: var(--color-dark-variant);  
 }
 
 main table tbody tr:last-child td {
@@ -427,6 +429,38 @@ main .gerenciar-despesas a {
   display: block;
   margin: 1rem auto;
   color: var(--color-primary);
+}
+
+main .gerenciador-elementos{
+  width: 200px;
+  height: 25px;
+  box-shadow: 1px 2px 10px gray;      
+}
+
+#descricao, #valor, #data, #descricao-receita, #valor-receita, #data-receita{
+  text-align: center;
+  font-size: 1.10rem;
+
+}
+
+#tabela-body{
+  text-align: center;
+  font-size: 1.10rem;   
+}
+
+.conteudo{
+  
+  width:215px;
+}
+
+button{
+  font-size: 1.10rem;
+  cursor: pointer;
+  width: 5rem;    
+}
+
+button :hover{
+  background-color:#c3c6ca; 
 }
 
 /* =========== Menu Lateral Direito ========== */

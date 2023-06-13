@@ -31,7 +31,7 @@ const formReceita = document.getElementById('form-receita');
 				let btnEditarReceita = document.createElement('button-receita');
 				btnEditarReceita.innerText = 'Editar';
 				btnEditarReceita.addEventListener('click', () => editarReceita(indiceReceita));
-				acoesReceita.appendChild(btnEditarReceita);
+			acoesReceita.appendChild(btnEditarReceita);
 
 			let btnExcluirReceita = document.createElement('button-receita');
 			btnExcluirReceita.innerText = 'Excluir';
@@ -40,7 +40,7 @@ const formReceita = document.getElementById('form-receita');
 		});
 	}
 
-	function salvarDespesaReceita(eventoReceita) {
+	function salvarReceita(eventoReceita) {
 		eventoReceita.preventDefault();
 
 		let indiceReceita = document.getElementById('indice-receita').value;
@@ -48,7 +48,7 @@ const formReceita = document.getElementById('form-receita');
 		let valorReceita = document.getElementById('valor-receita').value;
 		let dataReceita = document.getElementById('data-receita').value;
 
-		let dreceita = {
+		let receita = {
 			descricaoReceita: descricaoReceita,
 			valorReceita: valorReceita,
 			dataReceita: dataReceita
@@ -76,7 +76,7 @@ const formReceita = document.getElementById('form-receita');
 		document.getElementById('descricao-receita').value = receita.descricaoReceita;
 		document.getElementById('valor-receita').value = receita.valor;
 		document.getElementById('data-receita').value = receita.data;
-		document.getElementById('indice-receita').value = indice;
+		document.getElementById('indice-receita').value = indiceReceita;
 		document.getElementById('btn-salvar-receita').innerText = 'Atualizar';
 	}
 
@@ -96,11 +96,11 @@ const formReceita = document.getElementById('form-receita');
 
     function exibirReceita() {
         let tabelaReceita = document.getElementById('tabela-body-receita');
-        let total = document.getElementById('total');
-		let totalReceita = document.getElementById('total-receita');
+        let totalReceita = document.getElementById('total-receita');
+		let totalReceita2 = document.getElementById('total-receita2');
         tabelaReceita.innerHTML = '';
         totalReceita.innerText = 0;
-		totalReceita.innerHTML = 'R$';
+		totalReceita2.innerHTML = 'R$';
 
         receita.forEach((receita, indiceReceita) => {
             let linhaReceita = tabelaReceita.insertRow();
@@ -127,12 +127,12 @@ const formReceita = document.getElementById('form-receita');
             acoesReceita.appendChild(btnExcluirReceita);
 
             totalReceita.innerText = Number(totalReceita.innerText) + Number(receita.valor);
-			totalReceita.innerText = `R$ ${Number(totalReceita.innerText)}`;
+			totalReceita2.innerText = `R$ ${Number(totalReceita.innerText)}`;
         });
     }
 
-    function salvarReceita(evento) {
-        evento.preventDefault();
+    function salvarReceita(eventoReceita) {
+        eventoReceita.preventDefault();
 
         let indiceReceita = document.getElementById('indice-receita').value;
         let descricaoReceita = document.getElementById('descricao-receita').value;

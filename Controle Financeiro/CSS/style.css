@@ -238,12 +238,8 @@ aside .sidebar .message-count {
 #bnt-clientes {
   cursor: pointer;
 }
-<<<<<<< HEAD
 
 #bnt-receita{
-=======
-#bnt-receita {
->>>>>>> 718902efb984f33f3639a58bc7d3f87975379bd3
   cursor: pointer;
 }
 #bnt-despesa {

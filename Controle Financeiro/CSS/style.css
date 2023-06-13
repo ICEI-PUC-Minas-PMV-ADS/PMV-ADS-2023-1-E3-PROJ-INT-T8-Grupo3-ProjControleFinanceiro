@@ -232,14 +232,13 @@ aside .sidebar .message-count {
 
 #bnt-painel {
   cursor: pointer;
-  
 }
 
 #bnt-clientes {
   cursor: pointer;
 }
 
-#bnt-receita{
+#bnt-receita {
   cursor: pointer;
 }
 #bnt-despesa {
@@ -411,7 +410,7 @@ main .geren-desp table:hover {
 main table tbody td {
   height: 2.8rem;
   border-bottom: 1px solid var(--color-light);
-  color: var(--color-dark-variant);  
+  color: var(--color-dark-variant);
 }
 
 main table tbody tr:last-child td {
@@ -429,36 +428,39 @@ main .gerenciar-despesas a {
   color: var(--color-primary);
 }
 
-main .gerenciador-elementos{
+main .gerenciador-elementos {
   width: 200px;
   height: 25px;
-  box-shadow: 1px 2px 10px gray;      
+  box-shadow: 1px 2px 10px gray;
 }
 
-#descricao, #valor, #data, #descricao-receita, #valor-receita, #data-receita{
+#descricao,
+#valor,
+#data,
+#descricao-receita,
+#valor-receita,
+#data-receita {
   text-align: center;
-  font-size: 1.10rem;
-
+  font-size: 1.1rem;
 }
 
-#tabela-body{
+#tabela-body {
   text-align: center;
-  font-size: 1.10rem;   
+  font-size: 1.1rem;
 }
 
-.conteudo{
-  
-  width:215px;
+.conteudo {
+  width: 215px;
 }
 
-button{
-  font-size: 1.10rem;
+button {
+  font-size: 1.1rem;
   cursor: pointer;
-  width: 5rem;    
+  width: 5rem;
 }
 
-button :hover{
-  background-color:#c3c6ca; 
+button :hover {
+  background-color: #c3c6ca;
 }
 
 /* =========== Menu Lateral Direito ========== */

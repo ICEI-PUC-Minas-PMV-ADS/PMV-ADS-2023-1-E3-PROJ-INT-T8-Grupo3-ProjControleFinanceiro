@@ -1,5 +1,8 @@
-let totalDespesas = document.getElementById('totalDespesas');
+let totalDespesas = document.getElementById("totalDespesas");
 totalDespesas.innerText = `R$ `;
+
+let totalReceita = document.getElementById("totalReceita");
+totalReceita.innerText = `R$ `;
 /*
 let gerenDesp = document.getElementById('gerenDesp');
 gerenDesp.innerText = ` `;
@@ -10,14 +13,12 @@ tabDespesa.innerText = ` `;
 let mostreTudo = document.getElementById('mostre-tudo');
 mostreTudo.innerText = ` `;*/
 
-document.getElementById('geren-desp').style.display= "none"
-document.getElementById('form-despesa').style.display= "none"
-document.getElementById('tab-despesa').style.display= "none"
-
-document.getElementById('geren-rec').style.display= "none"
-document.getElementById('form-receita').style.display= "none"
-document.getElementById('tab-receita').style.display= "none"
-
+document.getElementById("geren-desp").style.display = "none";
+document.getElementById("form-despesa").style.display = "none";
+document.getElementById("tab-despesa").style.display = "none";
+document.getElementById("geren-rec").style.display = "none";
+document.getElementById("form-receita").style.display = "none";
+document.getElementById("tab-receita").style.display = "none";
 
 const sidemenu = document.querySelector("aside");
 const menuBtn = document.querySelector("#menu-btn");

@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 const formReceita = document.getElementById("form-receita");
 const tabelaReceita = document.getElementById("tbody-receita");
 const btnLimparReceita = document.getElementById("limpar-receita");
+=======
+const form = document.getElementById("form-receita");
+const tabelaReceita = document.getElementById("tbody-receitas");
+const btnLimparReceita = document.getElementById("limpar-receitas");
+>>>>>>> 03ba49be0045ae30d5df17671ae2790c527175b6
 
 let receitas = [];
 

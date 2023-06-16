@@ -1,12 +1,13 @@
-const form = document.getElementById("form-despesa");
+
+const form = document.getElementById("form-despesa2");
 const tabela = document.getElementById("tbody-despesas");
-const btnLimpar = document.getElementById("limpar");
+const btnLimpar = document.getElementById("limpar2");
 
 let despesas = [];
 
 function limparCampos() {
   form.reset();
-  document.getElementById("indice").value = "";
+  document.getElementById("indice2").value = "";
 }
 
 function exibirDespesas() {
@@ -39,10 +40,10 @@ function exibirDespesas() {
 function salvarDespesa(evento) {
   evento.preventDefault();
 
-  let indice = document.getElementById("indice").value;
-  let descricao = document.getElementById("descricao").value;
-  let valor = document.getElementById("valor").value;
-  let data = document.getElementById("data").value;
+  let indice = document.getElementById("indice2").value;
+  let descricao = document.getElementById("descricao2").value;
+  let valor = document.getElementById("valor2").value;
+  let data = document.getElementById("data2").value;
 
   let despesa = {
     descricao: descricao,
@@ -69,10 +70,10 @@ function excluirDespesa(indice) {
 
 function editarDespesa(indice) {
   let despesa = despesas[indice];
-  document.getElementById("descricao").value = despesa.descricao;
-  document.getElementById("valor").value = despesa.valor;
-  document.getElementById("data").value = despesa.data;
-  document.getElementById("indice").value = indice;
+  document.getElementById("descricao2").value = despesa.descricao;
+  document.getElementById("valor2").value = despesa.valor;
+  document.getElementById("data2").value = despesa.data;
+  document.getElementById("indice2").value = indice;
   document.getElementById("btn-salvar").innerText = "Atualizar";
 }
 
@@ -83,16 +84,16 @@ despesas = JSON.parse(localStorage.getItem("despesas")) || [];
 exibirDespesas();
 
 function limparCampos() {
-  document.getElementById("descricao").value = "";
-  document.getElementById("valor").value = "";
-  document.getElementById("data").value = "";
-  document.getElementById("indice").value = "";
+  document.getElementById("descricao2").value = "";
+  document.getElementById("valor2").value = "";
+  document.getElementById("data2").value = "";
+  document.getElementById("indice2").value = "";
   document.getElementById("btn-salvar").innerText = "Salvar";
 }
 
 function exibirDespesas() {
-  let tabela = document.getElementById("tabela-body");
-  let total = document.getElementById("total");
+  let tabela = document.getElementById("tabela-body2");
+  let total = document.getElementById("total2");
   let totalDespesas = document.getElementById("totalDespesas");
   tabela.innerHTML = "";
   total.innerText = 0;
@@ -130,10 +131,10 @@ function exibirDespesas() {
 function salvarDespesa(evento) {
   evento.preventDefault();
 
-  let indice = document.getElementById("indice").value;
-  let descricao = document.getElementById("descricao").value;
-  let valor = document.getElementById("valor").value;
-  let data = document.getElementById("data").value;
+  let indice = document.getElementById("indice2").value;
+  let descricao = document.getElementById("descricao2").value;
+  let valor = document.getElementById("valor2").value;
+  let data = document.getElementById("data2").value;
 
   let despesa = {
     descricao: descricao,
@@ -158,10 +159,10 @@ function excluirDespesa(indice) {
 
 function editarDespesa(indice) {
   let despesa = despesas[indice];
-  document.getElementById("descricao").value = despesa.descricao;
-  document.getElementById("valor").value = despesa.valor;
-  document.getElementById("data").value = despesa.data;
-  document.getElementById("indice").value = indice;
+  document.getElementById("descricao2").value = despesa.descricao;
+  document.getElementById("valor2").value = despesa.valor;
+  document.getElementById("data2").value = despesa.data;
+  document.getElementById("indice2").value = indice;
   document.getElementById("btn-salvar").innerText = "Atualizar";
 }
 

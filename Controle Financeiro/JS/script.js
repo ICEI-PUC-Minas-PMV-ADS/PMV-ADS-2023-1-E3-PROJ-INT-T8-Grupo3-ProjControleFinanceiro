@@ -3,16 +3,17 @@ document.getElementById("gerenc-despesas").style.display = "none";
 document.getElementById("gerenc-receita").style.display = "none";
 
 
+
+
 let totalDespesas = document.getElementById("totalDespesas");
 totalDespesas.innerText = `R$ `;
 
-let totalReceita = document.getElementById("totalReceita");
-totalReceita.innerText = `R$ `;
+/*let totalReceita = document.getElementById("totalReceita");
+totalReceita.innerText = `R$ `;*/
 
 
 
 
-//document.querySelector('.gerenciadores').style.display = "none";
 
 const sidemenu = document.querySelector("aside");
 const menuBtn = document.querySelector("#menu-btn");

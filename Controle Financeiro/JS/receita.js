@@ -1,6 +1,6 @@
 const form = document.getElementById("form-receita");
-const tabelaReceita = document.getElementById("tbody-receita");
-const btnLimparReceita = document.getElementById("limpar-receita");
+const tabelaReceita = document.getElementById("tbody-receitas");
+const btnLimparReceita = document.getElementById("limpar-receitas");
 
 let receita = [];
 

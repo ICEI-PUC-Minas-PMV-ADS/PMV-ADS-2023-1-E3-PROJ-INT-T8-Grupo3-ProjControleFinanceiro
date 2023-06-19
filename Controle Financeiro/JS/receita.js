@@ -1,12 +1,6 @@
-<<<<<<< HEAD
 const formReceita = document.getElementById("form-receita");
 const tabelaReceita = document.getElementById("tbody-receita");
 const btnLimparReceita = document.getElementById("limpar-receita");
-=======
-const form = document.getElementById("form-receita");
-const tabelaReceita = document.getElementById("tbody-receitas");
-const btnLimparReceita = document.getElementById("limpar-receitas");
->>>>>>> 03ba49be0045ae30d5df17671ae2790c527175b6
 
 let receitas = [];
 
@@ -118,12 +112,12 @@ function exibirReceita() {
 
     let acoesReceita = linhaReceita.insertCell();
 
-    let btnEditarReceita = document.createElement("button-receita");
+    let btnEditarReceita = document.createElement("button");
     btnEditarReceita.innerText = "Editar";
     btnEditarReceita.addEventListener("click", () => editarReceita(indiceReceita));
     acoesReceita.appendChild(btnEditarReceita);
 
-    let btnExcluirReceita = document.createElement("button-receita");
+    let btnExcluirReceita = document.createElement("button");
     btnExcluirReceita.innerText = "Excluir";
     btnExcluirReceita.addEventListener("click", () => excluirReceita(indiceReceita));
     acoesReceita.appendChild(btnExcluirReceita);
